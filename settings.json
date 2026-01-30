@@ -1,0 +1,39 @@
+{
+  "env": {
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "IS_DEMO": "1",
+    "ENABLE_TOOL_SEARCH": "1"
+  },
+  "includeCoAuthoredBy": false,
+  "sandbox": {
+    "enabled": true,
+    "excludedCommands": ["git:*", "gh:*"],
+    "additionalWritePaths": ["/tmp/*", "/private/tmp/*"]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(gh *)",
+      "Bash(git *)",
+      "Edit(//tmp)",
+      "Read",
+      "WebFetch",
+      "WebSearch",
+      "mcp__plugin_figma_figma-desktop",
+      "mcp__plugin_Notion_notion"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enabledPlugins": {
+    "commit-commands@claude-plugins-official": true,
+    "ralph-loop@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "figma@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "Notion@claude-plugins-official": true
+  },
+  "plansDirectory": "./.claude/plans",
+  "language": "Korean",
+  "spinnerTipsEnabled": false,
+  "terminalProgressBarEnabled": false
+}
