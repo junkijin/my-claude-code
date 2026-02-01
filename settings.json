@@ -28,6 +28,6 @@
   "terminalProgressBarEnabled": false,
   "statusLine": {
     "type": "command",
-    "command": "starship prompt 2>/dev/null | sed 's/%{//g;s/%}//g' | tr -d '\\n' | sed 's/❯//g;s/[[:space:]]*$//'"
+    "command": "starship prompt --path \"$PWD\" 2>/dev/null | sed 's/%{//g;s/%}//g' | tr -d '\\n' | sed 's/❯//g;s/[[:space:]]*$//'"
   }
 }
