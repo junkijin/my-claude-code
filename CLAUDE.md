@@ -2,7 +2,6 @@
 - macOS. Use macOS-compatible commands (e.g., `cat -e` not `cat -A`).
 
 # Tools
-- Open Figma, Jira, Notion links with their MCP tools, not WebFetch.
 - Use ast-grep skill for structural code search (AST patterns, language constructs). Prefer over text grep.
 
 # Code Style
