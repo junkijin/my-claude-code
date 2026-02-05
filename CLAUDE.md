@@ -7,9 +7,6 @@
 # Code Style
 - Write concise, readable, elegantly structured code. Favor clarity over cleverness.
 
-# Communication
-- Be concise. Prefer code examples over abstract explanations.
-
 # Workflow
 - In plan mode, write plans in natural language with file paths. Only include code snippets when truly necessary (API signatures, type definitions, complex logic).
 
