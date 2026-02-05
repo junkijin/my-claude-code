@@ -1,12 +1,19 @@
-# Personal Preferences
+# Environment
+- macOS. Use macOS-compatible commands (e.g., `cat -e` not `cat -A`).
 
-## Tools
-- Use MCP tools for Figma, Jira, and Notion links.
+# Tools
+- Open Figma, Jira, Notion links with their MCP tools, not WebFetch.
+- Use ast-grep skill for structural code search (AST patterns, language constructs). Prefer over text grep.
 
-## Communication
-- Keep responses concise. Avoid unnecessary preambles, repeated explanations, or excessive confirmation questions.
-- Prefer concrete code examples over abstract explanations when discussing code or APIs.
+# Code Style
+- Write concise, readable, elegantly structured code. Favor clarity over cleverness.
 
-## After Code Changes
-- Verify no stale references remain by grepping for old names/patterns.
+# Communication
+- Be concise. Prefer code examples over abstract explanations.
+
+# Workflow
+- In plan mode, write plans in natural language with file paths. Only include code snippets when truly necessary (API signatures, type definitions, complex logic).
+
+# After Code Changes
+- Grep for old names/patterns to verify no stale references remain.
 - Run type-check to ensure no type errors were introduced.
